@@ -1,0 +1,39 @@
+# Controlled-access genomic data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.vcf.bgz
+*.tbi
+*.bcf
+
+# Patient / clinical source documents
+*Clinical_Phenotype*
+*clinical_phenotype*
+*patient*
+*proband*
+
+# Large genomics intermediates
+*.gvcf
+*.gvcf.gz
+*.bed.gz
+*.tsv.gz
+
+# Local environments / caches
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Temporary files
+*.tmp
+*.temp
+~$*
